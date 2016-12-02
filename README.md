@@ -5,7 +5,9 @@ To simulate the chat-server for Unix/Linux environment. The simulation is implem
 who wish to chat are required to login to the chat-server. They can send messages to any other client in the lobby. Though a user-client can chat with multiple users, (s)he is not allowed to multicast or broadcast.
 
 Functional requirements:
+
 Client Functional Requirements:
+
 1.User can either login with existing username and password or can register with new ones. The
 commands for the same are
 register <username> <password>
@@ -24,6 +26,7 @@ lobbystatus
 Every time the lobby gets updated, user automatically gets the new lobby status without having to explicitly demand it.
 
 Server Functional Requirements:
+
 1.Server authenticates every user.
 
 2.Server manages registrations of new users.
